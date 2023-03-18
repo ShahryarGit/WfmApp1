@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 15,
     position: 'absolute',
-    top: 0,
+    top: 50,
     width: '100%',
     borderBottomWidth: 1,
     borderBottomColor: 'black',

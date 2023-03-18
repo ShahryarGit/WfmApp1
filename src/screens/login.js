@@ -64,7 +64,8 @@ const LoginPage = ({ login, isLoading, isLoggedIn, error, user, navigation }) =>
     fetchAgentShiftData(user);
     intervalArrayAgentShift.push(setInterval(function () {
       let nowThisInterval = new Date();
-      console.log("nowThisInterval", nowThisInterval,intervalArray)
+      console.log("nowThisInterval", nowThisInterval)
+      // console.log("nowThisInterval", nowThisInterval,intervalArray)
       fetchAgentShiftData(user);
     }, 1000 * 60 * 1));
     // console.log("tokenExpiry",user.tokenExpiry * 1000)
