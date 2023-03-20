@@ -10,6 +10,7 @@ export default class PushController extends Component{
               console.log("TOKEN:", token);
             },
           
+            
             // (required) Called when a remote or local notification is opened or received
             onNotification: function(notification) {
               console.log("NOTIFICATION:", notification);
