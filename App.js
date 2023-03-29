@@ -19,7 +19,8 @@ import Notification from './src/screens/notification';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { Provider } from 'react-redux';
-import store from '../WfmApp/src/redux/index';
+import store from './src/redux/index';
+// import store from '../WfmApp/src/redux/index';
 
 const Stack = createStackNavigator();
 
